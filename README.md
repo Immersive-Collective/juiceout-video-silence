@@ -31,7 +31,16 @@ source venv/bin/activate  # For macOS/Linux
 # For Windows: venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+
+### 3.1 Install Dependencies from requirements
+
+You can install all required dependencies from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### or 3.2 Install Dependencies
 
 Install the required Python libraries using `pip`:
 
