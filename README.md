@@ -4,6 +4,26 @@ This repository contains two Python scripts for video processing using FFmpeg:
 1. **Silence Chopping Script**: Removes or retains silent or talking segments from a video.
 2. **Video Speedup Script**: Speeds up a video without changing the pitch of the audio.
 
+## Demo
+
+### Original Video
+
+Watch the original, unprocessed video:
+
+[Original Video on YouTube](https://youtu.be/RkpzS6JO_Fs?feature=shared)
+
+### Processed Video (`-40 0.4 talk`)
+
+This version has been processed to remove silent parts with the parameters `-40 dB` silence threshold and `0.4 seconds` minimum silence duration, keeping only the talking segments:
+
+[Processed Video (talking segments only)](https://github.com/user-attachments/assets/bbbfcbcc-fe59-468b-8d38-6d95ee890d2e)
+
+### Sped-Up Video (1.5x)
+
+This is the same video, sped up 1.5 times without changing the pitch of the audio:
+
+[Sped-Up Video (1.5x)](https://github.com/user-attachments/assets/7c40a71f-d36b-47fa-b73d-4c8201460470)
+
 ## Requirements
 
 - **Python 3.x**
